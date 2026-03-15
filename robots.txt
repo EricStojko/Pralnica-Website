@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pralnica-koper.web.app/sitemap.xml
