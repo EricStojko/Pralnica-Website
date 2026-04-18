@@ -1,0 +1,27 @@
+{
+  "name": "pralnica-website",
+  "version": "1.0.0",
+  "description": "Uradna spletna stran za samopostrežno pralnico Speed Queen v Kopru.",
+  "main": "fix_hr2.js",
+  "scripts": {
+    "test": "htmlhint \"**/*.html\" --ignore \"node_modules/**\" && eslint \"**/*.js\" --ignore-pattern \"node_modules/\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricStojko/Pralnica-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EricStojko/Pralnica-Website/issues"
+  },
+  "homepage": "https://github.com/EricStojko/Pralnica-Website#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.1",
+    "globals": "^17.5.0",
+    "htmlhint": "^1.9.2"
+  }
+}

@@ -75,3 +75,14 @@ Za optimizacijo strani uporabite te fraze, ki izhajajo iz potreb uporabnikov v r
 • "Pranje puhovk Obala"
 • "Hitro pranje in sušenje"
 • "Pralnica za apartmaje in turiste"
+78: 
+79: 7. QA & Testing Environment
+80: This project uses a lightweight linting system to ensure code quality across all languages.
+81: • **Tools:** `htmlhint` for HTML validation, `eslint` for JavaScript.
+82: • **Command:** `npm run test`
+83: 
+84: ### [CRITICAL] AI Governance Rule
+85: Whenever an AI agent (Antigravity or others) works on this project:
+86: 1. You **MUST** run `npm run test` after any modification to HTML or JS files.
+87: 2. You **MUST** resolve all reported errors/warnings before suggesting a `firebase deploy` or performing a `git commit`.
+88: 3. Failure to pass tests is considered a "Blocking Issue" for deployment.
